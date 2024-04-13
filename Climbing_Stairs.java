@@ -1,4 +1,5 @@
 /* 70. Climbing Stairs */
+// use fibonachi series
 
 class Solution {
     public int climbStairs(int n) {
