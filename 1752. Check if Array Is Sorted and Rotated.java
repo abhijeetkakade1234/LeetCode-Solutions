@@ -8,8 +8,7 @@ class Solution {
             if (nums[i] > nums[(i + 1) % n]){
                 j++;
             }
-            if (j > 1) return false;
         }
-        return true;
+        return j <= 1;
     }
 }
