@@ -12,6 +12,7 @@ class Solution {
 
             if (temp == 0) {
                 storePairs.add(new int[] {mapping[0], i});
+                continue;
             }
             while (temp != 0){
                 mappedValue += mapping[temp % 10] * place;
