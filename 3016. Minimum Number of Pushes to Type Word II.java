@@ -3,7 +3,7 @@
 class Solution {
     public int minimumPushes(String word) {
         int[] letterFreq = new int[26];
-        for (char ch : word.toChar()){
+        for (char ch : word.toCharArray()){
             letterFreq[ch - 'a']++;
         }
         Integer[] sortedArray = new Integer[26];
